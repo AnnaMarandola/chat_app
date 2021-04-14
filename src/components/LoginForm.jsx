@@ -22,7 +22,7 @@ const Modal = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('Oops, incorrect credentials.');
+      setError('Oops, identifiants incorrects.');
     }
   };
 
@@ -35,7 +35,7 @@ const Modal = () => {
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password" required />
           <div align="center">
             <button type="submit" className="button">
-              <span>Start chatting</span>
+              <span>rejoindre</span>
             </button>
           </div>
         </form>
